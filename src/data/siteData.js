@@ -123,10 +123,10 @@ const CONFIG = {
     { year: "2027", title: "Raise seed funding", desc: "Scale startup to first 500 paying customers. Seed round target: $500k.", dim: true },
   ],
   contact: [
-    { icon: "✉", label: "Email", handle: "halle@email.com", href: "mailto:halle@email.com" },
-    { icon: "⌥", label: "GitHub", handle: "github.com/halle", href: "https://github.com/halle" },
-    { icon: "in", label: "LinkedIn", handle: "linkedin.com/in/halle", href: "https://linkedin.com/in/halle" },
-    { icon: "𝕏", label: "Twitter / X", handle: "@halle", href: "https://twitter.com/halle" },
+    { icon: "✉", label: "Email", handle: "njihalle10@email.com", href: "mailto:njihalle10@email.com" },
+    { icon: "⌥", label: "GitHub", handle: "github.com/nhallecn", href: "https://github.com/nhallecn" },
+    { icon: "in", label: "LinkedIn", handle: "linkedin.com/in/nji-halle-cho-nkwenti", href: "https://linkedin.com/in/nji-halle-cho-nkwenti" },
+    { icon: "𝕏", label: "Twitter / X", handle: "@halle", href: "https://twitter.com/chohalle" },
   ],
 };
 export default CONFIG;
