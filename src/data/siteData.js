@@ -1,4 +1,4 @@
-export  const CONFIG = {
+const CONFIG = {
   name: "Halle",
   initials: "HL",
   tagline: "Full-Stack Developer",
