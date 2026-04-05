@@ -1,8 +1,6 @@
 import CONFIG from "../data/siteData.js";
 
-export default 
-
-function Footer() {
+export default function Footer() {
   const scroll = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   return (
     <footer className="footer">

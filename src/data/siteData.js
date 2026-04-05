@@ -1,4 +1,5 @@
 const CONFIG = {
+
   name: "Halle",
   initials: "HL",
   tagline: "Full-Stack Developer",
@@ -128,3 +129,4 @@ const CONFIG = {
     { icon: "𝕏", label: "Twitter / X", handle: "@halle", href: "https://twitter.com/halle" },
   ],
 };
+export default CONFIG;
