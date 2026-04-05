@@ -10,7 +10,7 @@ export default function Projects() {
       <p className="section-desc reveal">Real problems, real products — from MVPs to startup ideas targeting the African market.</p>
       <div className="projects-grid reveal">
         {CONFIG.projects.map((p) => (
-          <div className="project-card" key={p.num} onClick={() => p.link !== "#" && window.open(p.link, "_blank")}>
+          <div className="project-card" key={p.num}>
             <div className="project-num">
               {p.num} — <StatusBadge status={p.status} color={p.statusColor} />
             </div>
@@ -20,7 +20,10 @@ export default function Projects() {
               <div className="p-stack">
                 {p.stack.map((t) => <Tag key={t.label} label={t.label} color={t.color} />)}
               </div>
-              <span className="p-arrow">↗</span>
+              <div className="project-buttons">
+                <button className="btn btn-repo" onClick={() => p.repo !== "#" && window.open(p.repo, "_blank")} disabled={p.repo === "#"}>View Repo</button>
+                <button className="btn btn-live" onClick={() => p.live !== "#" && window.open(p.live, "_blank")} disabled={p.live === "#"}>View Live</button>
+              </div>
             </div>
           </div>
         ))}
