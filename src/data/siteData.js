@@ -1,15 +1,15 @@
 const CONFIG = {
 
-  name: "Halle",
-  initials: "HL",
+  name: "NJI Halle",
+  initials: "NHCN",
   tagline: "Full-Stack Developer",
   subTagline: "Building for Africa",
   location: "Yaoundé, Cameroon 🇨🇲",
   availableForWork: true,
   bio: [
-    "I'm a software engineering student at Siantou University, Yaoundé, graduating next year with a BSc. I started writing code in Level 1 with HTML, CSS, and JavaScript — now I build full-stack applications with React, Node.js, and Python.",
-    "My mission: build technology that solves real African problems. The continent has 1.4 billion people, rising smartphone adoption, and a massive gap between available technology and what people actually need — especially in fintech, logistics, and AI tools for small businesses.",
-    "After my degree, I'm applying for a Masters scholarship in Europe or North America. By then I plan to have two startups at revenue stage — arriving at the world stage not as a student, but as a founder.",
+    "I'm a software engineering student in Yaoundé. I started writing code in Level 1 with HTML, CSS, and JavaScript — now I build full-stack applications with React, Node.js, and Python.",
+    "My mission: build technology that solves real African problems. The continent has 1.4 billion people, rising smartphone adoption, and a massive gap between available technology and what people actually need especially in fintech, logistics, and AI tools for small businesses.",
+    "I am building startups at the revenue stage, arriving at the world stage not as a student, but as a founder.",
   ],
   stats: [
     { num: "3+", label: "Years coding" },
@@ -116,11 +116,16 @@ const CONFIG = {
     },
   ],
   timeline: [
-    { year: "2022", title: "Started coding", desc: "Began Level 1 at Siantou University. First lines of HTML, CSS, JavaScript." },
-    { year: "2023", title: "Leveled up the stack", desc: "Learned React, Node.js, Python. Built first client projects. Started freelancing." },
-    { year: "2024", title: "First startup ideas", desc: "Validated logistics and fintech gaps in Central Africa. Building MVPs." },
-    { year: "2025 →", title: "BSc graduation + Masters", desc: "Degree from Siantou. Targeting Mastercard Foundation, Chevening, DAAD scholarships." },
-    { year: "2027", title: "Raise seed funding", desc: "Scale startup to first 500 paying customers. Seed round target: $500k.", dim: true },
+    { year: "2022", title: "Started coding", desc: "Acquired the gce o level qualification." },
+    { year: "2024", title: "Acquired A-Level Qualification", desc: "Completed my A-Level studies." },
+    { year: "2025", title: "University student", desc: "Enrolled in a Bachelor's program in Software Engineering. Started learning full-stack development and acquired a responsive design and javascript certification." },
+    {
+      year: "2026 →", title:'Building projects and getting skilled', desc: "Building projects to solve real African problems. Gaining experience and skills in full-stack development, AI tools, and fintech integrations."
+    },
+    {
+      year:" ", title: "Acquire a Higher national diploma in software engineering", desc: "Complete my HND in Software Engineering and gain practical experience through internships or freelance projects."
+    },
+    { year: "2027", title: "Acquire a Bachelor's degree in Software Engineering", desc: "Complete my Bachelor's degree in Software Engineering.", dim: true },
   ],
   contact: [
     { icon: "✉", label: "Email", handle: "njihalle10@email.com", href: "mailto:njihalle10@email.com" },
