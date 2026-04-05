@@ -1,3 +1,4 @@
+import CONFIG from "../data/siteData.js";
 
 
 export default function Nav({ scrolled }) {
