@@ -1,4 +1,6 @@
 import CONFIG from "../data/siteData.js";
+import StatusBadge from "../components/statusBadge.jsx";
+import Tag from "../components/tag.jsx";
 
 export default function Projects() {
   return (

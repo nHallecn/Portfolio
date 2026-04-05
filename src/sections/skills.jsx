@@ -1,4 +1,5 @@
 import CONFIG from "../data/siteData.js";
+import Tag from "../components/tag.jsx";
 
 export default function Skills() {
   return (

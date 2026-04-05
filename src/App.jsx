@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import useReveal from "./hooks/useScrollReveal";
-import css from "./App.css";
+import "./App.css";
 
 import Nav from "./sections/navbar.jsx";
 import Hero from "./sections/hero.jsx";
@@ -22,7 +22,6 @@ export default function App() {
 
   return (
     <>
-      <style>{css}</style>
       <Nav scrolled={scrolled} />
       <Hero />
       <Skills />
