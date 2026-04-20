@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="section" id="projects">
       <p className="section-label reveal">What I'm building</p>
       <h2 className="section-title reveal">Projects</h2>
-      <p className="section-desc reveal">Real problems, real products — from MVPs to startup ideas targeting the African market.</p>
+      <p className="section-desc reveal">Real problems, real products from MVPs to startup ideas targeting the African market.</p>
       <div className="projects-grid reveal">
         {CONFIG.projects.map((p) => (
           <div className="project-card" key={p.num}>
