@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import useReveal from "./hooks/useScrollReveal";
-import "./App.css";
 
 import Nav from "./sections/navbar.jsx";
 import Hero from "./sections/hero.jsx";

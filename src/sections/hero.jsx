@@ -21,7 +21,7 @@ export default function Hero() {
         </h1>
         <p className="hero-sub fade-up delay-2">
           Building <strong>scalable digital products</strong> for Africa and the world.
-          Based in {CONFIG.location} — crafting solutions in fintech, logistics, and AI
+          Based in {CONFIG.location}, crafting solutions in fintech, logistics, and AI
           that close the gap between Africa and global technology.
         </p>
         <div className="hero-actions fade-up delay-3">

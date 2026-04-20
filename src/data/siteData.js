@@ -108,7 +108,7 @@ const CONFIG = {
     { icon: "✉", label: "Email", handle: "njihalle10@email.com", href: "mailto:njihalle10@email.com" },
     { icon: "⌥", label: "GitHub", handle: "github.com/nhallecn", href: "https://github.com/nhallecn" },
     { icon: "in", label: "LinkedIn", handle: "linkedin.com/in/nji-halle-cho-nkwenti", href: "https://linkedin.com/in/nji-halle-cho-nkwenti" },
-    { icon: "𝕏", label: "Twitter / X", handle: "@halle", href: "https://twitter.com/chohalle" },
+    { icon: "𝕏", label: "𝕏", handle: "@halle", href: "https://twitter.com/chohalle" },
   ],
 };
 export default CONFIG;
